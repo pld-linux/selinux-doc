@@ -2,7 +2,7 @@ Summary:	SELinux documentation
 Summary(pl):	Dokumentacja do SELinuksa
 Name:		selinux-doc
 Version:	1.10
-Release:	1
+Release:	2
 License:	Public Use License v1.0
 Group:		Documentation
 Source0:	http://www.nsa.gov/selinux/archives/%{name}-%{version}.tgz
@@ -52,16 +52,21 @@ uaktualniona postaæ raportu o konfigurowaniu polityki SELinuksa).
 %setup -q
 
 %build
-%{__make} -C module main.pdf
-%{__make} -C policy main.pdf
+%{__make} -C module main.pdf main
+%{__make} -C policy main.pdf main
 
 %install
 rm -rf $RPM_BUILD_ROOT
 # must stay for rpm.macros < 1.144
 install -d $RPM_BUILD_ROOT
+rm -rf module/module policy/policy
 
-mv -f module/main.pdf module.pdf
-mv -f policy/main.pdf policy.pdf
+cp -f module/main.pdf module.pdf 
+cp -f policy/main.pdf policy.pdf
+cp -a module/main module/module
+ln -s t1.html     module/module/index.html
+cp -a policy/main policy/policy
+ln -s t1.html     policy/policy/index.html
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -69,3 +74,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CREDITS ChangeLog LICENSE PORTING README README.MLS README.CONDITIONAL module.pdf policy.pdf
+%doc module/module policy/policy
