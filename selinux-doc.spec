@@ -34,19 +34,19 @@ Policy report).
 Security-enhanced Linux jest prototypem j±dra Linuksa i wielu
 aplikacji u¿ytkowych o funkcjach podwy¿szonego bezpieczeñstwa.
 Zaprojektowany jest tak, aby w prosty sposób ukazaæ znaczenie
-mandatowej kontroli dostêpu dla spo³eczno¶ci Linuksowej. Ukazuje
+obowi±zkowej kontroli dostêpu dla spo³eczno¶ci Linuksowej. Ukazuje
 równie¿ jak tak± kontrolê mo¿na dodaæ do istniej±cego systemu typu
 Linux. J±dro SELinux zawiera nowe sk³adniki architektury pierwotnie
 opracowane w celu ulepszenia bezpieczeñstwa systemu operacyjnego
 Flask. Te elementy zapewniaj± ogólne wsparcie we wdra¿aniu wielu typów
-polityk mandatowej kontroli dostêpu, w³±czaj±c te wzorowane na: Type
+polityk obowi±zkowej kontroli dostêpu, w³±czaj±c te wzorowane na: Type
 Enforcement (TE), kontroli dostêpu opartej na rolach (RBAC) i
 zabezpieczeniach wielopoziomowych.
 
-Ten pakiet zawiera instrukcje budowania, informacje o portowaniu
-oraz plik CREDITS dla SELinuksa. Czê¶æ z tych plików w przysz³o¶ci
-bêdzie rozrzucona po pakietach, a dodana zostanie nowa dokumentacja
-(np. uaktualniona postaæ raportu o konfigurowaniu polityki SELinuksa).
+Ten pakiet zawiera instrukcje budowania, informacje o portowaniu oraz
+plik CREDITS dla SELinuksa. Czê¶æ z tych plików w przysz³o¶ci bêdzie
+rozrzucona po pakietach, a dodana zostanie nowa dokumentacja (np.
+uaktualniona postaæ raportu o konfigurowaniu polityki SELinuksa).
 
 %prep
 %setup -q
