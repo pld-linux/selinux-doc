@@ -1,12 +1,12 @@
 Summary:	SELinux documentation
 Summary(pl):	Dokumentacja do SELinuksa
 Name:		selinux-doc
-Version:	1.16
+Version:	1.18
 Release:	1
 License:	Public Use License v1.0
 Group:		Documentation
 Source0:	http://www.nsa.gov/selinux/archives/%{name}-%{version}.tgz
-# Source0-md5:	fd1a22082420592619c4756d4fdc9ca3
+# Source0-md5:	effea5cf62d1cb3796a5e482b0161c69
 URL:		http://www.nsa.gov/selinux/
 BuildRequires:	docbook-dtd31-sgml
 BuildRequires:	docbook-utils
