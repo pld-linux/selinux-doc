@@ -26,7 +26,7 @@ concepts of Type Enforcement, Role-based Access Control, and
 Multi-level Security.
 
 This package contains build instructions, porting information, and a
-CREDITS file for SELinux.  Some of these files will be split up into
+CREDITS file for SELinux. Some of these files will be split up into
 per-package files in the future, and other documentation will be added
 to this package (e.g. an updated form of the Configuring the SELinux
 Policy report).
@@ -64,9 +64,9 @@ rm -rf module/module policy/policy
 cp -f module/main.pdf module.pdf 
 cp -f policy/main.pdf policy.pdf
 cp -a module/main module/module
-ln -s t1.html     module/module/index.html
+ln -s t1.html module/module/index.html
 cp -a policy/main policy/policy
-ln -s t1.html     policy/policy/index.html
+ln -s t1.html policy/policy/index.html
 
 %clean
 rm -rf $RPM_BUILD_ROOT
