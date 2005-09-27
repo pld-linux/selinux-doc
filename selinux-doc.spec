@@ -11,6 +11,9 @@ URL:		http://www.nsa.gov/selinux/
 BuildRequires:	docbook-dtd31-sgml
 BuildRequires:	docbook-utils
 BuildRequires:	rpmbuild(macros) >= 1.144
+BuildRequires:	tetex-fonts-stmaryrd
+BuildRequires:	tetex-format-pdflatex
+BuildRequires:	tetex-latex-cyrillic
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
