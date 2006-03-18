@@ -1,12 +1,12 @@
 Summary:	SELinux documentation
 Summary(pl):	Dokumentacja do SELinuksa
 Name:		selinux-doc
-Version:	1.24
+Version:	1.26
 Release:	1
 License:	Public Use License v1.0
 Group:		Documentation
 Source0:	http://www.nsa.gov/selinux/archives/%{name}-%{version}.tgz
-# Source0-md5:	933380a92e8b5db6d5a7943418f8101a
+# Source0-md5:	d1843da4201efd5665008391cc9c4dd3
 URL:		http://www.nsa.gov/selinux/
 BuildRequires:	docbook-dtd31-sgml
 BuildRequires:	docbook-utils
