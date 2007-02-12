@@ -1,5 +1,5 @@
 Summary:	SELinux documentation
-Summary(pl.UTF-8):   Dokumentacja do SELinuksa
+Summary(pl.UTF-8):	Dokumentacja do SELinuksa
 Name:		selinux-doc
 Version:	1.26
 Release:	1
