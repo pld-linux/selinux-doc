@@ -1,5 +1,5 @@
 Summary:	SELinux documentation
-Summary(pl):	Dokumentacja do SELinuksa
+Summary(pl.UTF-8):   Dokumentacja do SELinuksa
 Name:		selinux-doc
 Version:	1.26
 Release:	1
@@ -34,23 +34,23 @@ per-package files in the future, and other documentation will be added
 to this package (e.g. an updated form of the Configuring the SELinux
 Policy report).
 
-%description -l pl
-Security-enhanced Linux jest prototypem j±dra Linuksa i wielu
-aplikacji u¿ytkowych o funkcjach podwy¿szonego bezpieczeñstwa.
-Zaprojektowany jest tak, aby w prosty sposób ukazaæ znaczenie
-obowi±zkowej kontroli dostêpu dla spo³eczno¶ci linuksowej. Ukazuje
-równie¿ jak tak± kontrolê mo¿na dodaæ do istniej±cego systemu typu
-Linux. J±dro SELinux zawiera nowe sk³adniki architektury pierwotnie
-opracowane w celu ulepszenia bezpieczeñstwa systemu operacyjnego
-Flask. Te elementy zapewniaj± ogólne wsparcie we wdra¿aniu wielu typów
-polityk obowi±zkowej kontroli dostêpu, w³±czaj±c te wzorowane na: Type
-Enforcement (TE), kontroli dostêpu opartej na rolach (RBAC) i
+%description -l pl.UTF-8
+Security-enhanced Linux jest prototypem jÄ…dra Linuksa i wielu
+aplikacji uÅ¼ytkowych o funkcjach podwyÅ¼szonego bezpieczeÅ„stwa.
+Zaprojektowany jest tak, aby w prosty sposÃ³b ukazaÄ‡ znaczenie
+obowiÄ…zkowej kontroli dostÄ™pu dla spoÅ‚ecznoÅ›ci linuksowej. Ukazuje
+rÃ³wnieÅ¼ jak takÄ… kontrolÄ™ moÅ¼na dodaÄ‡ do istniejÄ…cego systemu typu
+Linux. JÄ…dro SELinux zawiera nowe skÅ‚adniki architektury pierwotnie
+opracowane w celu ulepszenia bezpieczeÅ„stwa systemu operacyjnego
+Flask. Te elementy zapewniajÄ… ogÃ³lne wsparcie we wdraÅ¼aniu wielu typÃ³w
+polityk obowiÄ…zkowej kontroli dostÄ™pu, wÅ‚Ä…czajÄ…c te wzorowane na: Type
+Enforcement (TE), kontroli dostÄ™pu opartej na rolach (RBAC) i
 zabezpieczeniach wielopoziomowych.
 
 Ten pakiet zawiera instrukcje budowania, informacje o portowaniu oraz
-plik CREDITS dla SELinuksa. Czê¶æ z tych plików w przysz³o¶ci bêdzie
+plik CREDITS dla SELinuksa. CzÄ™Å›Ä‡ z tych plikÃ³w w przyszÅ‚oÅ›ci bÄ™dzie
 rozrzucona po pakietach, a dodana zostanie nowa dokumentacja (np.
-uaktualniona postaæ raportu o konfigurowaniu polityki SELinuksa).
+uaktualniona postaÄ‡ raportu o konfigurowaniu polityki SELinuksa).
 
 %prep
 %setup -q
