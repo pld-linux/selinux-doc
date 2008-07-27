@@ -2,7 +2,7 @@ Summary:	SELinux documentation
 Summary(pl.UTF-8):	Dokumentacja do SELinuksa
 Name:		selinux-doc
 Version:	1.26
-Release:	1
+Release:	2
 License:	Public Use License v1.0
 Group:		Documentation
 Source0:	http://www.nsa.gov/selinux/archives/%{name}-%{version}.tgz
